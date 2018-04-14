@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  color:#666;
+  background:#888;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  font-size: 13px;
+  background:#722872;
+  transition:all .3s;
+}
+  
+#banner{
+  background-color:#722872 !important;
+  height:80px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-color:#592059;
+}
+
+.container-fluid{
+    width:95%;
+    max-width:1024px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#banner img{
+    height:50px;
+    margin:15px 0;
+}
+
+#navigation-collapse {
+  margin:15px 0;
+}
+
+#banner button {
+  margin:20px 0;
+}
+
+.navbar-collapse .navbar-form {
+  margin-left: 50px;
+}
+
+main {
+  max-width:1024px;
+  margin:0 auto;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+main .intro-text {
+  max-width:675px;
+  text-align:center;
+  margin-bottom:30px;
+}
+
+@media(min-width:1023px){
+  main .intro-text {
+    text-align:right;
+    max-width:610px;
+    display: inline-block;
+  }
+}
+
+main .skills {
+   font-size: 1.15em;
+}
+
+main header img {
+      border-radius:50%;
+      margin:0 0 10px;
+      max-width:80%;
+      height:auto;
+      width:180px;
+      text-align: center;
+}
+
+@media(min-width:1023px) {
+  main header img {
+    vertical-align: bottom;
+    margin-left:40px;
+  }
+}
+
+main header {
+    background:#aaa;
+    color:#fff;
+    text-align:center;
+    padding:70px 10% 50px;
+    align-items:flex-end;
+    align-content:space-around;
+}
+
+@media(min-width:1023px) {
+  main header {
+    padding:50px 30px ;
+  }
+} 
+
+#portfolio {
+  margin: auto;
+  padding:40px 0;
+  background-color: #FFF;
+  text-align: center;
+}
+
+#portfolio .grid {
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  margin:20px auto;  
+}
+
+#portfolio .grid li {
+  margin: 20px;
+  max-width:600px;
+}
+
+@media(min-width:1023px) {
+  #portfolio .grid li {
+    max-width:380px;
+    display: inline-block;
+    }
+}
+
+#portfolio .grid img {
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+#contact {
+  margin: auto;
+  padding:40px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+#contact form {
+  vertical-align:top;
+  margin-left:20px;
+  width:80%;
+}
+
+@media(min-width:1023px) {
+  #contact form {
+    margin-right:20px;
+    width:40%;
+    display:inline-block;
+  }
+
+  #contact #extra {
+    text-align: left;
+    margin-left:20px;
+    margin-top:20px;
+    width:40%;
+    display:inline-block;
+  }
+}
+
+#contact .form-group {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bbb;
+}
+
+#contact input, #contact textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: 0 0;
+  box-shadow: none!important;
+  resize: none;
+  width:100%;
+}
+
+contact input, #contact textarea:focus {
+  outline:0;
+}
+
+
+#contact label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: .85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top .3s ease,opacity .3s ease;
+  -moz-transition: top .3s ease,opacity .3s ease;
+  -ms-transition: top .3s ease,opacity .3s ease;
+  transition: top .3s ease,opacity .3s ease;
+}
+
+footer {
+  color: #fff;
+  background-color: #aaa;
+  text-align:center;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer h3 {
+    margin-bottom:30px;
+    color:#fff;
+}
+
+@media(min-width:1023px){
+  #footer-above div {
+    width:40%;
+    display:inline-block;
+  }
+}
+
+footer li {
+  display:inline;
+  text-align:center;
+}
+
+footer li button {
+  height:50px;
+  width:50px;
+  border:2px solid; 
+  border-radius:50%;
+}
+
+#footer-below {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  padding:25px 0;
+  background-color:#722872;
+  text-align:center;
+} 
